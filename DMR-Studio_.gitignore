@@ -1,0 +1,27 @@
+# ── Patient & session data — NEVER commit ──
+PT_Protocols/
+*.dmr
+*.json
+
+# ── Runtime config (keep only the template) ──
+config/config.json
+
+# ── Python cache ──
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+
+# ── Virtual environments ──
+venv/
+env/
+.venv/
+
+# ── OS clutter ──
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# ── Logs ──
+*.log
