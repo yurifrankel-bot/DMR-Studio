@@ -1,0 +1,93 @@
+{
+  "_comment": "TactileSense DMR Studio — Clinical Location Presets",
+  "_version": "1.0",
+  "_author": "PT Robotic LLC — for clinical review by J.C. Metivier, PT, DPT (AAOMPT Fellow)",
+  "_note": "frame_duration_sec and session_duration_min are editable defaults. num_frames is calculated.",
+
+  "locations": [
+    {
+      "key":                  "left_shoulder",
+      "display":              "Left Shoulder",
+      "frame_duration_sec":   3,
+      "session_duration_min": 15,
+      "clinical_note":        "Moderate rhythm — joint mobilization cycles ~3 sec"
+    },
+    {
+      "key":                  "right_shoulder",
+      "display":              "Right Shoulder",
+      "frame_duration_sec":   3,
+      "session_duration_min": 15,
+      "clinical_note":        "Moderate rhythm — joint mobilization cycles ~3 sec"
+    },
+    {
+      "key":                  "left_hip",
+      "display":              "Left Hip",
+      "frame_duration_sec":   5,
+      "session_duration_min": 20,
+      "clinical_note":        "Slow, large-range sustained mobilization — 5 sec captures full cycle"
+    },
+    {
+      "key":                  "right_hip",
+      "display":              "Right Hip",
+      "frame_duration_sec":   5,
+      "session_duration_min": 20,
+      "clinical_note":        "Slow, large-range sustained mobilization — 5 sec captures full cycle"
+    },
+    {
+      "key":                  "lower_back",
+      "display":              "Lower Back",
+      "frame_duration_sec":   5,
+      "session_duration_min": 20,
+      "clinical_note":        "Slow sustained pressure — lumbar mobilization typically 5+ sec cycles"
+    },
+    {
+      "key":                  "cervical",
+      "display":              "Cervical / Neck",
+      "frame_duration_sec":   3,
+      "session_duration_min": 12,
+      "clinical_note":        "Moderate — careful cervical mobilization, shorter session"
+    },
+    {
+      "key":                  "left_knee",
+      "display":              "Left Knee",
+      "frame_duration_sec":   3,
+      "session_duration_min": 15,
+      "clinical_note":        "Moderate rhythm — patellar and tibial mobilization cycles ~3 sec"
+    },
+    {
+      "key":                  "right_knee",
+      "display":              "Right Knee",
+      "frame_duration_sec":   3,
+      "session_duration_min": 15,
+      "clinical_note":        "Moderate rhythm — patellar and tibial mobilization cycles ~3 sec"
+    },
+    {
+      "key":                  "left_ankle",
+      "display":              "Left Ankle",
+      "frame_duration_sec":   2,
+      "session_duration_min": 12,
+      "clinical_note":        "Quick articulation — talocrural/subtalar rapid pressure events"
+    },
+    {
+      "key":                  "right_ankle",
+      "display":              "Right Ankle",
+      "frame_duration_sec":   2,
+      "session_duration_min": 12,
+      "clinical_note":        "Quick articulation — talocrural/subtalar rapid pressure events"
+    },
+    {
+      "key":                  "left_hand_wrist",
+      "display":              "Left Hand / Wrist",
+      "frame_duration_sec":   2,
+      "session_duration_min": 10,
+      "clinical_note":        "Precise short gestures — carpal/metacarpal mobilization"
+    },
+    {
+      "key":                  "right_hand_wrist",
+      "display":              "Right Hand / Wrist",
+      "frame_duration_sec":   2,
+      "session_duration_min": 10,
+      "clinical_note":        "Precise short gestures — carpal/metacarpal mobilization"
+    }
+  ]
+}

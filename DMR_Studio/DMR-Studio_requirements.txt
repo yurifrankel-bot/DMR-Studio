@@ -1,0 +1,8 @@
+# TactileSense — DMR Studio
+# Python 3.11+ required (tested on 3.11, 3.14 Windows)
+
+numpy>=1.24
+opencv-python>=4.8
+Pillow>=10.0
+tkinterweb>=3.20
+scipy>=1.11
